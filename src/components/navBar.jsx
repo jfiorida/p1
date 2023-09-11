@@ -3,8 +3,10 @@ const navBar =() =>{
 
     return
       <nav>
-        home
-        productos
+        <ul>
+          <li>home</li>
+          <li>productos</li>
+        </ul>
       </nav>;
       <CartWidget/>;
     
