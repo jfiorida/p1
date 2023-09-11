@@ -1,15 +1,15 @@
 import { useState } from "react";
 
 import './App.css'
+import {itemListConteiner} from "./components/ItemListConteiner"
 import NavBar from "./components/navBar";
-import itemListConteiner from "./components/ItemListConteiner"
 
 
 function App() {
 const texto = "bienvenido a mi app";
   return (
      <div>
-      <NavBar/>;
+      <NavBar/>
       <itemListConteiner greeting = {texto} />;
      </div>
   )
